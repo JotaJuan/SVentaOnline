@@ -157,7 +157,12 @@ public class PanelServidores extends javax.swing.JFrame {
             }
         });
 
-        jButton6.setText("Último");
+        jButton6.setText("Canales");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
 
         jButton7.setText("Guardar");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -368,6 +373,11 @@ public class PanelServidores extends javax.swing.JFrame {
         EstadosServidores estados = new EstadosServidores();
         estados.setVisible(rootPaneCheckingEnabled);
     }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        EstadosCanales canales = new EstadosCanales();
+        canales.setVisible(rootPaneCheckingEnabled);
+    }//GEN-LAST:event_jButton6ActionPerformed
 
     /**
      * @param args the command line arguments
