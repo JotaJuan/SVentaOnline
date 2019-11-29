@@ -1,7 +1,10 @@
 Celular
+SmartTv
 Heladera
 Lavarropa
 zapatillas
 Auto
+Moto
 Drone
+Bicicleta
 Aire_Acondicionado
